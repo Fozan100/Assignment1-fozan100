@@ -1,0 +1,42 @@
+
+body {
+    background-image: url(../images/background.png);
+    color: white;
+}
+.navbar {
+    padding: 30px 30px 0 0;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.f-item a {
+    color: white;
+    font-size: 18px;
+
+    text-decoration: none;
+    border-color: solid white 1px;
+}
+
+.f-item {
+    padding: 15px;
+    border-radius: 10%;
+    background-color: black;
+    margin-left: 20px;
+    border: 1px solid brown;
+}
+
+#videos {
+    
+    width:60%;
+    margin:50px auto;
+    text-align: center;
+
+}
+#videos > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+iframe {
+    margin: 20px 0;
+}
